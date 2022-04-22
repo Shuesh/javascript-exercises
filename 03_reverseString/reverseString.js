@@ -1,4 +1,12 @@
-const reverseString = function() {
+const reverseString = function(input) {
+    let output = "";
+    let arrayInput = input.split('');
+
+    for (let char of arrayInput){
+        output = char + output;
+    }
+
+    return output;
 
 };
 
